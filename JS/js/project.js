@@ -13,7 +13,7 @@ $(".thumb").click(function(){
 });
 
 $("h1").click(function(){
-    alert("Here's just a few of the things I really like about you x          PS: in case you click too fast or want to go back, just refresh the page to start again :)");
+    alert("Here's just a few things I really like about you x          PS: in case you click too fast or want to go back, just refresh the page to start again :)");
 });
 
 var index = false;
