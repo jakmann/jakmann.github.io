@@ -1,0 +1,27 @@
+body {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/2/2c/Fried-Chicken-Set.jpg);
+  background-size: cover;
+  font-family: Courier;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+h1 {
+  font-size:45px;
+}
+
+li {
+  font-style: italic;
+  font-size: 20px;
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 28px
+}
+
+a {
+  color: #672DFF;
+  font-weight: bold;
+}
