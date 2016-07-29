@@ -49,7 +49,7 @@ var messages = [
   "(Like I can't remember if your favorite is Gold Peak or Pure Leaf :/ )",
   "And you're down for food adventures, no matter how long overdue",
   'So many adventures all around the city...jk threw this in here because I like that I might be able to help teach you things like how to be safe and navigate this crazy island',
-  'I like navy blue too! (and lavender....cooooool)  *NOTE* the whole background is supposed to turn purple now, and clearly it is not',
+  'I like navy blue too! (and lavender....cooooool)  *NOTE* it works!!!!!',
   "Overall, I'm just excited to get to hang out with you and accomplish our major life goals",
   "x"
 ];
