@@ -22,6 +22,9 @@ $("button").click(function(){
 		// console.log(index);
 		// use index to get next image
 		// and set the index value to current index plus 1
+		if($('#thumbnails img:nth-child(' + (index + 1) + ')').attr("id") == "wallpaper") {
+			$('body').css("background-color", "#9b59b6");
+		}
 		$("#bigimage").attr("src", $('#thumbnails img:nth-child(' + (index + 1) + ')').attr('src'));
 		index = index + 1;
 		if (index > 10) {
@@ -53,8 +56,12 @@ var messages = [
 
 var i = -1;
 
+// $("#selector").click(function(){
+//     $("#target").text(messages[i = ++i % messages.length]);
+// });
+
 $("#selector").click(function(){
-    $("#target").text(messages[i = ++i % messages.length]);
+    $("#target").html("<p>"+messages[i = ++i % messages.length]+"</p>");
 });
 
 // $('#wallpaper').click(function() {
@@ -84,4 +91,4 @@ $("#selector").click(function(){
 // 	$("h3").append("<p>is</p>");	
 // 	$("h4").append("<p>the</p>");	
 // 	$("h5").append("<p>most</p>");	
-// });
+// }); 
